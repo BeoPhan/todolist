@@ -29,8 +29,8 @@ const Index = () => {
         <input
           type="text"
           value={userInput}
-          onChange={handleChange}
           placeholder="Enter a todo Item"
+          onChange={handleChange}
         />
         <button onClick={handleSubmit}>Submit</button>
       </form>
